@@ -1,23 +1,48 @@
 <%-- any content can be specified here e.g.: --%>
 <%@ page pageEncoding="UTF-8" %>
 <header>
-    
+
 </header>
 <style>
-            table {
-                font-family: arial, sans-serif;
-                border-collapse: collapse;
-                width: 100%;
-            }
+   
+    #fim td{
+        font-weight: bold;  
+    }
+    h1{
+        position: static;
+        padding-left: 100px;
+    }
+    a{
+        position: static;
+        left: 5%;
+    }
+    form{
+        position: static;
+        padding: auto;
+        padding-left: 100px;
+        align-content: center;
+        width: 20%;
+    }
+    table {
+        position: relative;
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        left: 5%;
+        width: 60%;
+    }
+    th{
+        background-color: #0062cc;
+        color: #fff;
+    }
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
 
-            td, th {
-                border: 1px solid #dddddd;
-                text-align: left;
-                padding: 8px;
-            }
-
-            tr:nth-child(even) {
-                background-color: #dddddd;
-            }
-        </style>
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+    
+</style>
 
